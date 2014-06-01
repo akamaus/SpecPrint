@@ -1,0 +1,16 @@
+Name:           SpecPrint
+Version:        0.1
+Cabal-Version:  >= 1.2
+License:        PublicDomain
+Author:         Dmitry Vyal<akamaus@gmail.com>
+Maintainer:     Dmitry Vyal<akamaus@gmail.com>
+Synopsis:       A small module for using with ghci -interactive-print for  printing non-latin strings
+Build-Type:     Simple
+
+Library
+        exposed-modules:
+                Text.SpecPrint
+
+        build-depends: base, text >= 0.9
+        ghc-options: -Wall
+        Hs-Source-Dirs: src
